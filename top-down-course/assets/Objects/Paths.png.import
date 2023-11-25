@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rcu7esi4m1fg"
-path="res://.godot/imported/Basic Charakter Spritesheet.png-85658333b7afad423c9cbd0cac923504.ctex"
+uid="uid://daq3y4xjfut67"
+path="res://.godot/imported/Paths.png-88a6725ea9649595292350dc5315e633.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Characters/Basic Charakter Spritesheet.png"
-dest_files=["res://.godot/imported/Basic Charakter Spritesheet.png-85658333b7afad423c9cbd0cac923504.ctex"]
+source_file="res://assets/Objects/Paths.png"
+dest_files=["res://.godot/imported/Paths.png-88a6725ea9649595292350dc5315e633.ctex"]
 
 [params]
 

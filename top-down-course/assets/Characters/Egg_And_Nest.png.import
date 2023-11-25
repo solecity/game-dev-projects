@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://daq3y4xjfut67"
-path="res://.godot/imported/Paths.png-4749e394270cea2d6c42c5987a626c03.ctex"
+uid="uid://c80n5ko3uti00"
+path="res://.godot/imported/Egg_And_Nest.png-15081020f1ee49a5a5d442758a71fb29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Objects/Paths.png"
-dest_files=["res://.godot/imported/Paths.png-4749e394270cea2d6c42c5987a626c03.ctex"]
+source_file="res://assets/Characters/Egg_And_Nest.png"
+dest_files=["res://.godot/imported/Egg_And_Nest.png-15081020f1ee49a5a5d442758a71fb29.ctex"]
 
 [params]
 

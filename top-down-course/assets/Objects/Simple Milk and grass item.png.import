@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cd326vn4ye2g2"
-path="res://.godot/imported/Egg item.png-c5900fef90611d7aa0fbb490d5f14f00.ctex"
+uid="uid://b5halcpwhx8i6"
+path="res://.godot/imported/Simple Milk and grass item.png-54dcbb5be7709293d9674892a786c3a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Objects/Egg item.png"
-dest_files=["res://.godot/imported/Egg item.png-c5900fef90611d7aa0fbb490d5f14f00.ctex"]
+source_file="res://assets/Objects/Simple Milk and grass item.png"
+dest_files=["res://.godot/imported/Simple Milk and grass item.png-54dcbb5be7709293d9674892a786c3a4.ctex"]
 
 [params]
 

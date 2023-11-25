@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcd4h7cxu40fc"
-path="res://.godot/imported/Basic Grass Biom things 1.png-ec706a3d2af139f46791f062580d1776.ctex"
+uid="uid://ve8orhhxkh0h"
+path="res://.godot/imported/Free Chicken Sprites.png-22c4fea3f460bcb2e05e259f2ba3d648.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Objects/Basic Grass Biom things 1.png"
-dest_files=["res://.godot/imported/Basic Grass Biom things 1.png-ec706a3d2af139f46791f062580d1776.ctex"]
+source_file="res://assets/Characters/Free Chicken Sprites.png"
+dest_files=["res://.godot/imported/Free Chicken Sprites.png-22c4fea3f460bcb2e05e259f2ba3d648.ctex"]
 
 [params]
 

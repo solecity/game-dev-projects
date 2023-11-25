@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1um2a0plwpbb"
-path="res://.godot/imported/Chest.png-1bb03c1f392d97bdb2bfad10572b6b69.ctex"
+uid="uid://c7bbs62x2v2er"
+path="res://.godot/imported/Sprout Lands defautlt palette snip.PNG-2769c24591d6af2a4e06ca724c230788.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Objects/Chest.png"
-dest_files=["res://.godot/imported/Chest.png-1bb03c1f392d97bdb2bfad10572b6b69.ctex"]
+source_file="res://assets/Sprout Lands color pallet/Sprout Lands defautlt palette snip.PNG"
+dest_files=["res://.godot/imported/Sprout Lands defautlt palette snip.PNG-2769c24591d6af2a4e06ca724c230788.ctex"]
 
 [params]
 

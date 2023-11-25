@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de7giv52evajb"
-path="res://.godot/imported/Tilled Dirt.png-9d59e736988e8f4cb1bd0104b21fb1af.ctex"
+uid="uid://7ia4qjwibw5r"
+path="res://.godot/imported/Wooden House.png-6101ff34153161ad515607d37e27e169.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprout Lands - Sprites - Basic pack/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png"
-dest_files=["res://.godot/imported/Tilled Dirt.png-9d59e736988e8f4cb1bd0104b21fb1af.ctex"]
+source_file="res://assets/Tilesets/Wooden House.png"
+dest_files=["res://.godot/imported/Wooden House.png-6101ff34153161ad515607d37e27e169.ctex"]
 
 [params]
 
