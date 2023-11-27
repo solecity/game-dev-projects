@@ -17,10 +17,14 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1200
+window/size/viewport_width=1280
+window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 window/stretch/scale=4.0
+
+[dotnet]
+
+project/assembly_name="top-down-game"
 
 [input]
 
