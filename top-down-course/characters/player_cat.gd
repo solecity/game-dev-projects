@@ -6,8 +6,10 @@ extends CharacterBody2D
 @onready var animation_tree = $AnimationTree
 @onready var state_machine = animation_tree.get("parameters/playback")
 
+
 func _ready():
 	update_animation_direction(starting_direction)
+
 
 func _physics_process(_delta):
 	var input_direction : Vector2 = Vector2.ZERO
@@ -24,11 +26,13 @@ func _physics_process(_delta):
 	move_and_slide()
 	
 	set_new_state()
-	
+
+
 func update_animation_direction(move_input : Vector2):
 	if move_input != Vector2.ZERO:
 		animation_tree.set("parameters/Idle/blend_position", move_input)
 		animation_tree.set("parameters/Walk/blend_position", move_input)
+
 
 # choose state based on what is happening with the player
 func set_new_state():
