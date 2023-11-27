@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dqspbflv6h0qb"]
+[gd_scene load_steps=18 format=3 uid="uid://dqspbflv6h0qb"]
 
 [ext_resource type="PackedScene" uid="uid://bkevhttg0dxtq" path="res://characters/player_cat.tscn" id="1_jb5d8"]
 [ext_resource type="Texture2D" uid="uid://dqhknatx1lrv3" path="res://assets/Tilesets/Hills.png" id="2_ik11n"]
@@ -8,6 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://7ia4qjwibw5r" path="res://assets/Tilesets/Wooden House.png" id="5_j7eu5"]
 [ext_resource type="Texture2D" uid="uid://dgtfpf4iqpidt" path="res://assets/Tilesets/Fences.png" id="6_wmvpw"]
 [ext_resource type="PackedScene" uid="uid://b6oif6aetwtjx" path="res://characters/cow.tscn" id="8_7l47m"]
+[ext_resource type="PackedScene" uid="uid://cw1rgtb4m6ae6" path="res://objects/chest.tscn" id="9_pomm7"]
+[ext_resource type="PackedScene" uid="uid://cfhv6k1ynwi2p" path="res://objects/bed.tscn" id="10_v0xmd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5fukl"]
 texture = ExtResource("2_yxvab")
@@ -738,3 +740,18 @@ position = Vector2(26, 46)
 
 [node name="Cow3" parent="." instance=ExtResource("8_7l47m")]
 position = Vector2(88, 121)
+
+[node name="Chest" parent="." instance=ExtResource("9_pomm7")]
+position = Vector2(162, 128)
+
+[node name="Chest2" parent="." instance=ExtResource("9_pomm7")]
+position = Vector2(45, 95)
+
+[node name="Chest3" parent="." instance=ExtResource("9_pomm7")]
+position = Vector2(165, 43)
+
+[node name="Bed" parent="." instance=ExtResource("10_v0xmd")]
+position = Vector2(115, 75)
+
+[node name="Bed2" parent="." instance=ExtResource("10_v0xmd")]
+position = Vector2(116, 165)
