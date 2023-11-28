@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://y6mcelopyaqa"
-path="res://.godot/imported/enemy.png-c000cc7bf5521607bb168c8a0ba7828a.ctex"
+uid="uid://5ldhgknphu6o"
+path="res://.godot/imported/grass.png-a207bda4a53e32c7645a41ec6d1c234e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/game/enemy.png"
-dest_files=["res://.godot/imported/enemy.png-c000cc7bf5521607bb168c8a0ba7828a.ctex"]
+source_file="res://assets/grass.png"
+dest_files=["res://.godot/imported/grass.png-a207bda4a53e32c7645a41ec6d1c234e.ctex"]
 
 [params]
 
