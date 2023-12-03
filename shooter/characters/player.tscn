@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://dxv6cpd2dnvt5"]
+[gd_scene load_steps=9 format=3 uid="uid://dxv6cpd2dnvt5"]
 
 [ext_resource type="Script" path="res://characters/player.gd" id="1_ag0qe"]
 [ext_resource type="Texture2D" uid="uid://37gdh4e167dt" path="res://assets/player.png" id="2_unb1m"]
@@ -7,13 +7,68 @@
 radius = 16.0
 height = 50.0
 
+[sub_resource type="Animation" id="Animation_k76s4"]
+resource_name = "idle"
+length = 0.55
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3, 0.45),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 0, 2]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sfrsd"]
+_data = {
+"idle": SubResource("Animation_k76s4")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ubpa1"]
+animation = &"idle"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_kwb1b"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_ph48w"]
+states/idle/node = SubResource("AnimationNodeAnimation_ubpa1")
+states/idle/position = Vector2(324, 100)
+transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition_kwb1b")]
+
 [node name="Player" type="CharacterBody2D"]
 up_direction = Vector2(2.08165e-12, 1)
 script = ExtResource("1_ag0qe")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 1.5708
 texture = ExtResource("2_unb1m")
 hframes = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
 shape = SubResource("CapsuleShape2D_jw0rb")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_sfrsd")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_ph48w")
+anim_player = NodePath("../AnimationPlayer")
+active = true
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(30, 0)
+gizmo_extents = 20.0
+
+[node name="ColorRect" type="ColorRect" parent="Marker2D"]
+offset_left = -14.0
+offset_top = -2.0
+offset_bottom = 2.0
